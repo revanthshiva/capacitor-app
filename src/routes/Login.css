@@ -1,0 +1,64 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  font-weight: bold;
+}
+
+.login-subtitle {
+  color: #888;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input-group {
+  margin-bottom: 1.5rem; /* Increase the spacing between input groups */
+}
+
+.login-label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.login-input {
+  padding: 0.75rem; /* Increase the padding to make the input boxes larger */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem; /* Increase the font size */
+  width: calc(100% - 1.5rem); /* Adjust width to match padding */
+}
+
+.login-button {
+  background-color: #e5989b; /* Set the background color here */
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white; /* Set the text color to white */
+  margin-top: 1rem;
+}
+
+.login-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+
+
+  
